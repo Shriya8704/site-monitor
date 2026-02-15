@@ -21,6 +21,7 @@ def send_telegram():
         "text": message
     })
 
-# if is_live():
-send_telegram()
+if is_live():
+    send_telegram()
+
 
